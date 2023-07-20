@@ -19,6 +19,9 @@ Presentation Layer
 Presentation Layer, care about user interface and user connection. The purpose of this layer is to show data in a way that users can understand,
 take user inputs, process the received data, and exchange data with the business layer. 
 
+Core Layer
+The Core Layer is a shared part of the application where basic functionalities are stored and can be used throughout the entire project.
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 N LAYER MİMARİSİ
@@ -35,9 +38,12 @@ yapabilmemizi sağlar.
 Veri Erişim Katmanı
 
 Veri Erişim Katmanı, uygulamamızın veritabanı veya harici servislerle nasıl etkileşimde bulunacağını yönetir. Bu katmanın hedefleri verileri veritabanından çekmek veya eklemek
+
+Çekirdek Katmanı
+Core Layer, uygulama boyunca kullanılan temel işlevleri içeren ortak bir katmandır.
 ve business layer ile veri alışverişinde bulunmaktır.
 
-Presentation Layer (Sunum Katmanı)
+Sunum Katmanı
 Sunum Katmanı, kullanıcı arayüzü ve kullanıcı iletişimiyle ilgilenir. Bu katmanın amacı verileri kullanıcılar için anlaşılabilir bir şekilde gösterip 
 kullanıcı girişlerini alıp aldığı verileri işleyerek iş katmanıyla veri alışverişi yapmak. 
 
